@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
-    "outDir": "./lib",
     "target": "es2015",
     "module": "commonjs",
+    "declaration": true,
+    "outDir": "./lib",
+    "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
     "removeComments": true,
-    "declaration": false,
     "sourceMap": true,
     "jsx": "react",
     "typeRoots": ["index.d.ts", "node_modules/@types"]
